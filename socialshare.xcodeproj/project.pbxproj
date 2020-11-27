@@ -13,6 +13,7 @@
 		6154EFC82408015900930E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6154EFC72408015900930E55 /* Assets.xcassets */; };
 		6154EFCB2408015900930E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6154EFC92408015900930E55 /* LaunchScreen.storyboard */; };
 		6154EFCE2408015900930E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6154EFCD2408015900930E55 /* main.m */; };
+		6154EFD624080D2F00930E55 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6154EFD524080D2F00930E55 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6154EFCA2408015900930E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6154EFCC2408015900930E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6154EFCD2408015900930E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6154EFD524080D2F00930E55 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6154EFD624080D2F00930E55 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				6154EFBD2408013E00930E55 /* socialshare */,
 				6154EFBC2408013E00930E55 /* Products */,
+				6154EFD424080D2E00930E55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +73,14 @@
 				6154EFCD2408015900930E55 /* main.m */,
 			);
 			path = socialshare;
+			sourceTree = "<group>";
+		};
+		6154EFD424080D2E00930E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6154EFD524080D2F00930E55 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
